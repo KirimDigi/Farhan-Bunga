@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="id" prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="UTF-8" />
@@ -4769,7 +4769,7 @@
                                           <div class="elementor-button-wrapper">
                                             <a
                                               class="elementor-button elementor-button-link elementor-size-sm elementor-animation-shrink"
-                                              href="https://www.google.com/maps/place/0%C2%B003'07.3%22S+100%C2%B021'34.9%22E/@-0.0520298,100.3571078,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-0.0520298!4d100.3596827?hl=en&entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D"
+                                              href="https://www.google.com/maps/place/0%C2%B006'07.5%22S+100%C2%B027'22.1%22E/@-0.102075,100.4535561,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-0.102075!4d100.456131?hl=en&entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D"
                                               target="_blank"
                                               rel="nofollow"
                                             >
@@ -6365,13 +6365,13 @@
                             var sec_gift = document.getElementById("sec_gift");
                             btn_gift.onclick = function () {
                               if (sec_gift.style.display === "block") {
-                                $("#sec_gift").slideUp(1500, "easeInOutCubic");
+                                jQuery("#sec_gift").slideUp(1500, "easeInOutCubic");
                               } else {
-                                $("#sec_gift").slideDown(
+                                jQuery("#sec_gift").slideDown(
                                   1500,
                                   "easeInOutCubic",
                                 );
-                                $("#btn_gift").animate(
+                                jQuery("#btn_gift").animate(
                                   { opacity: 0 },
                                   1000,
                                   "easeInOutCirc",
@@ -7966,13 +7966,13 @@
                               jQuery("body").css("overflow", "visible");
                             }
                             function closeCover() {
-                              $("#cover").css({ position: "absolute" });
-                              $("#cover").animate(
+                              jQuery("#cover").css({ position: "absolute" });
+                              jQuery("#cover").animate(
                                 { opacity: 0, top: "-100vh" },
                                 2500,
                                 "easeInOutCubic",
                               );
-                              $("#cover").hide(2500);
+                              jQuery("#cover").hide(2500);
                             }
                           </script>
                         </div>
@@ -8004,7 +8004,7 @@
                                   secCustomColor.style.right === "-250px" ||
                                   secCustomColor.style.right === ""
                                 ) {
-                                  $("#sec_custom_color").animate(
+                                  jQuery("#sec_custom_color").animate(
                                     { right: "0" },
                                     1000,
                                     "easeInOutCubic",
@@ -8013,7 +8013,7 @@
                                     btnText.textContent = "TUTUP";
                                   }, 1000);
                                 } else {
-                                  $("#sec_custom_color").animate(
+                                  jQuery("#sec_custom_color").animate(
                                     { right: "-250px" },
                                     1000,
                                     "easeInOutCubic",
